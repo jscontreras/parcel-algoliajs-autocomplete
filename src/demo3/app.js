@@ -8,7 +8,7 @@ import '@algolia/autocomplete-theme-classic';
 
 const appId = 'latency';
 const apiKey = '6be0576ff61c053d5f9a3225e2a90f76';
-const indexName = 'production_deals';
+const indexName = 'instant_search';
 const querySuggestionsIndex = 'instant_search_demo_query_suggestions';
 
 const searchClient = algoliasearch(appId, apiKey);
@@ -58,7 +58,7 @@ autocomplete({
                 <div className="aa-ItemContent">
                   <div className="aa-ItemContentBody">
                     <div className="aa-ItemContentTitle">
-                      <components.Highlight hit={item} attribute="title" />
+                      <components.Highlight hit={item} attribute="name" />
                     </div>
                   </div>
                 </div>
