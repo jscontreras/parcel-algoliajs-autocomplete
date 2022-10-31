@@ -31,10 +31,10 @@ autocomplete({
         templates: {
           item({ item, components }) {
             return (
-              <div className="aa-ItemWrapper">
-                <div className="aa-ItemContent">
-                  <div className="aa-ItemContentBody">
-                    <div className="aa-ItemContentTitle">
+              <div class="aa-ItemWrapper">
+                <div class="aa-ItemContent">
+                  <div class="aa-ItemContentBody">
+                    <div class="aa-ItemContentTitle">
                       <components.Highlight hit={item} attribute="name" />
                     </div>
                   </div>

@@ -54,10 +54,10 @@ autocomplete({
         templates: {
           item({ item, components }) {
             return (
-              <div className="aa-ItemWrapper">
-                <div className="aa-ItemContent">
-                  <div className="aa-ItemContentBody">
-                    <div className="aa-ItemContentTitle">
+              <div class="aa-ItemWrapper">
+                <div class="aa-ItemContent">
+                  <div class="aa-ItemContentBody">
+                    <div class="aa-ItemContentTitle">
                       <components.Highlight hit={item} attribute="name" />
                     </div>
                   </div>
@@ -72,7 +72,7 @@ autocomplete({
       },
       {
         sourceId: 'links',
-        className: 'my-links',
+        class: 'my-links',
         getItems() {
           return [
             {
@@ -98,12 +98,12 @@ autocomplete({
           },
           item({ item }) {
             return (
-              <div className="aa-ItemWrapper custom-source__container">
-                <a className="custom-source__a" href={item.url}>
+              <div class="aa-ItemWrapper custom-source__container">
+                <a class="custom-source__a" href={item.url}>
                   <img
                     src={item.img}
                     alt={item.label}
-                    className="custom-source__img"
+                    class="custom-source__img"
                   />
                 </a>
               </div>
