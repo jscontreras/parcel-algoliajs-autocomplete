@@ -8,10 +8,10 @@ import { h } from 'preact';
 import insightsClient from 'search-insights';
 import '@algolia/autocomplete-theme-classic';
 
-const appId = '8KPBITCG1A';
-const apiKey = '8b8fb541d51a59dc26e5eef54c45b3ea';
+const appId = 'latency';
+const apiKey = '6be0576ff61c053d5f9a3225e2a90f76';
 const indexName = 'production_deals';
-const querySuggestionsIndex = 'production_deals_query_suggestions';
+const querySuggestionsIndex = 'instant_search_demo_query_suggestions';
 
 insightsClient('init', { appId, apiKey });
 const algoliaInsightsPlugin = createAlgoliaInsightsPlugin({
