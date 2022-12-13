@@ -10,6 +10,8 @@ const indexName = 'instant_search';
 
 const searchClient = algoliasearch(appId, apiKey);
 
+return;
+
 autocomplete({
   container: '#autocomplete',
   placeholder: 'My Placeholder Text',
